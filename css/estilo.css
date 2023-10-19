@@ -237,7 +237,11 @@ main p {
 }
 
 @media (max-width: 800px) {
-
+    .imgSaamaOficial {
+        width: 60vw;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
     .textoQueEsSaama {
         font-size: 1rem;
         padding: auto;
