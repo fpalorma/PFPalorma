@@ -335,23 +335,46 @@ main p {
 }
 
 /*main donde estamos*/
+
+.tituloUbicacion{
+    text-align: center;
+}
 .parrafoUbicacion {
-    font-size: 22px;
+    font-size: 2rem;
     margin-left: 20px;
     text-align: left;
     display: block;
-    position: relative;
+    /* position: relative;
     top: 80px;
-    left: 00px;
-    border: 2px solid purple;
+    left: 00px; */
+    /* border: 2px solid purple; */
     width: 350px;
     padding: 10px;
 }
 
 .mapa {
-    position: relative;
+    /* position: relative;
     left: 700px;
-    bottom: 40px;
+    bottom: 40px; */
+    width: 70%;
+}
+
+.contenedorUbicacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    margin-top:50px;
+}
+
+@media (max-width: 800px){
+    .contenedorUbicacion{
+        grid-template-columns: 1fr;
+        
+        row-gap: 10px;
+    }
+    .parrafoUbicacion{
+        text-align: center;
+    }
 }
 
 /*main contacto*/
