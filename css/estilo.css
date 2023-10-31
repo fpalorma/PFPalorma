@@ -285,8 +285,8 @@ main p {
 .contenedorServicios {
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
-    justify-content: space-around;
+    align-items: stretch;
+    justify-content: space-around; 
 }
 
 
@@ -294,26 +294,49 @@ main p {
 .contenedorServicioUno {
     margin: 20px;
     background-color: white;
-    width: 250px;
+    width: 300px;
     padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .contenedorServicioDos {
     margin: 20px;
     background-color: white;
-    width: 250px;
+    width: 300px;
     padding: 10px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
 }
 
 .contenedorServicioTres {
     margin: 20px;
     background-color: white;
-    width: 250px;
+    width: 300px;
     padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
+@media (max-width:300px){
+    .contenedorServicioUno{
+        width:80%;
+    }
+    .contenedorServicioDos{
+        width:80%;
+    }
+    .contenedorServicioTres{
+        width:80%;
+    }
+}
 .imgServicios {
-    width: 250px;
+    width: auto;
 }
 
 .tituloServicioTarjeta {
