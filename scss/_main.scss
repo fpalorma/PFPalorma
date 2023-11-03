@@ -1,0 +1,10 @@
+/* Main */
+
+h1 {
+    @include titulos;
+}
+
+main p {
+    margin-left: 20px;
+    width: 100%;
+}

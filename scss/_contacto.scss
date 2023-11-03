@@ -1,0 +1,62 @@
+/*main contacto*/
+
+.parrafoContacto {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    width: 90%;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    label {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+}
+
+input {
+    padding: 5px;
+    color: purple;
+    border: 2px solid $color-bordes;
+    margin-top: 10px;
+
+    &:focus {
+        background-color: pink;
+        border: 2px solid $color-principal;
+    }
+}
+
+.inputBoton {
+    background-color: $color-secundario;
+    &:hover {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    &:active {
+        transform: translate(-2px, -2px);
+    }
+}
+
+textarea {
+    padding: 5px;
+    color: purple;
+    border: 2px solid $color-bordes;
+    margin-top: 10px;
+
+    &:focus {
+        background-color: pink;
+        border: 2px solid $color-principal;
+    }
+}
+
+.imgContacto {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.mainContacto {
+    overflow-x: hidden;
+}

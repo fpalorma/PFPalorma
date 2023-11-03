@@ -1,0 +1,20 @@
+/*main que es saama*/
+
+.imgSaamaOficial {
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mainQueEs {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoQueEsSaama {
+    font-size: 1.5rem;
+    max-width: 95%;
+    margin-top: 10px;
+}

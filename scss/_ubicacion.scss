@@ -1,0 +1,25 @@
+/*main donde estamos*/
+
+.tituloUbicacion {
+    text-align: center;
+}
+
+.parrafoUbicacion {
+    font-size: 2rem;
+    margin-left: 20px;
+    text-align: left;
+    display: block;
+    width: 350px;
+    padding: 10px;
+}
+
+.mapa {
+    width: 70%;
+}
+
+.contenedorUbicacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+}

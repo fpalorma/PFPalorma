@@ -1,0 +1,70 @@
+/*main servicios*/
+
+.tituloServicios {
+    text-align: center;
+}
+
+.contenedorServicios {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.contenedorServicioUno,
+.contenedorServicioDos,
+.contenedorServicioTres {
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imgServicios {
+    width: auto;
+}
+
+.tituloServicioTarjeta {
+    text-align: center;
+}
+
+.parrafoServicioTarjeta {
+    text-align: center;
+    margin: 2px;
+}
+
+.btnServicios {
+    background-color: $color-secundario;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: blueviolet;
+        transform: translate(2px, 2px);
+    }
+
+    &:active {
+        transform: translate(-2px, -2px);
+        color: white;
+    }
+}
+
+.contenedorServicioTarjeta {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    &:hover {
+        box-shadow: 10px 10px 50px, 10px 10px 50px violet;
+    }
+}

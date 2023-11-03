@@ -1,0 +1,59 @@
+/*Footer*/
+
+footer {
+    background-color: $color-principal;
+    border-top: solid 3px $color-bordes;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: fit-content;
+    padding: 10px;
+}
+
+.footerContenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.footerTerapeuta {
+    margin: 10px 0px 0px 20px;
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    left: 1px;
+}
+
+.footerTerapeutaBootsrap {
+    color: black;
+}
+
+footer {
+    img {
+        width: 30px;
+    }
+
+    ul li {
+        margin: 10px 20px 0px 0px;
+        display: inline-block;
+        list-style: none;
+        width: fit-content;
+    }
+}
+
+.footerRedes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+
+    p {
+        margin-right: 10px;
+    }
+}
+
+.footerRedesBootstrap {
+    color: black;
+}

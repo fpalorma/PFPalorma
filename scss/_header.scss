@@ -1,0 +1,35 @@
+/* Header */
+
+header {
+    position: sticky;
+    top: 0;
+    border-bottom: solid 3px $color-bordes;
+    background-color: $color-principal !important;
+    z-index: 1;
+    width: 100vw;
+
+    img {
+        width: 5rem;
+        max-width: 100%;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    nav ul li {
+        background-color: $color-secundario;
+        border-radius: 50px;
+        border: 1px solid black;
+        text-align: center;
+        margin-right: 5px;
+    }
+}
+
+a {
+    @include anclas;
+}
+
+.resaltado {
+    background-color: blueviolet;
+    border: 2px solid $color-bordes;
+    border-radius: 50px;
+}

@@ -1,0 +1,14 @@
+@mixin anclas {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+@mixin titulos {
+    color: $color-titulos;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 3rem;
+}
