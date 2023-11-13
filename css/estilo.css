@@ -221,6 +221,7 @@ main p {
 .btnServicios:hover {
   background-color: blueviolet;
   transform: translate(2px, 2px);
+  transition: all 0.5s;
 }
 .btnServicios:active {
   transform: translate(-2px, -2px);
